@@ -1,0 +1,245 @@
+/*Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pataya');
+
+/*Generaly*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0F1537;
+}
+
+#container {
+    margin: auto;
+    width: 900px;
+    background-color: #CCD6FF;
+    font-family: "Pataya", sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #D9562F;
+}
+
+.buttonForm {
+    border: solid 1px #0F1537;
+    border-radius: 2px;
+    background-color: #CCD6FF;
+    color: #0F1537;
+    box-shadow: 1px 1px 1px black;
+    padding: 2px 5px;
+    margin-top: 10px;
+}
+
+.buttonForm:hover {
+    text-decoration: underline
+}
+
+
+/*end generaly*/
+
+
+/*start header*/
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 0 0 10px 0;
+    background-color: #CCD6FF;
+}
+
+#logo {
+    height: 123px;
+    width: 200px;
+    margin: 15px 0 0 10px;
+    border-radius: 12px;
+    background: url('https://s17.postimg.org/ahouws85b/villette-en-cirques_min.jpg') no-repeat;
+    border: solid 1px black;
+}
+
+#h1_phrase {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4.5em;
+    font-family: 'Lobster';
+    margin: 10px 0 0 0;
+    text-shadow: 2px 2px 4px #0F1537;
+    letter-spacing: 0.1em;
+}
+
+#phrase {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/*end header*/
+
+
+/* start nav*/
+
+nav {
+    padding: 10px;
+    background-color: black;
+}
+
+nav li {
+    display: inline;
+    padding: 0 15px;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #D9562F;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #D9562F;
+    background-color: black;
+}
+
+.pageMore,
+.pageActivity,
+#top {
+    float: right;
+    padding: 0 15px;
+}
+
+
+/* end navbar */
+
+
+/*Content*/
+
+#content {
+    background-color: #CCD6FF;
+}
+
+#bigTop {
+    width: 100%;
+    height: calc(100vh/3);
+    overflow: hidden;
+    background-image: url('https://s21.postimg.org/3jy8s91kn/salle-du-cirque-red.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#activityOne,
+#activityTwo,
+#activityThree,
+#dates,
+#wildCircus,
+#webmaster {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+#navBar2,
+#moreInformation {
+    display: none;
+}
+
+#content img {
+    width: 500px;
+}
+
+.descriptionOne,
+.descriptionThree {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.descriptionTwo {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*end content*/
+
+
+/*footer*/
+
+footer {
+    background-color: black;
+    color: #D9562F;
+    padding: 5px 20px 0 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer p .pageMore {
+    float: none;
+}
+
+footer .pageActivity {
+    display: none;
+    float: none;
+}
+
+
+/*Button Top */
+
+.topLink {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+    padding: 0px;
+    opacity: 0.7;
+    z-index: 2000;
+}
+
+.topLink img {
+    width: 30px;
+    height: 30px;
+}
